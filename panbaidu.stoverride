@@ -3,8 +3,9 @@ desc: panbaidu
 http:
   mitm:
     - 'pan.baidu.com'
+    - pan.baidu.com
   script:
-    - match: https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user
+    - match: https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user
       name: panbaidu
       type: response
       require-body: true
