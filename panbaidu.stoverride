@@ -2,9 +2,9 @@ name: 百度网盘
 desc: panbaidu
 http:
   mitm:
-    - pan.baidu.com
+    - 'pan.baidu.com'
   script:
-    - match: https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user url
+    - match: https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user
       name: panbaidu
       type: response
       require-body: true
