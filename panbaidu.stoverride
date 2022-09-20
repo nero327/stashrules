@@ -13,4 +13,4 @@ http:
 script-providers:
   panbaidu:
     url: https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/bdcloud.js
-    interval: 86400
+    interval: 443
