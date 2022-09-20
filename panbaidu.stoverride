@@ -1,15 +1,15 @@
-name: 样
-desc: 羊羊羊
+name: 百度网盘
+desc: panbaidu
 http:
   mitm:
-    - 'cat-match.easygame2021.com'
+    - 'pan.baidu.com'
   script:
-    - match: https?:\/\/cat-match\.easygame2021\.com\/sheep\/v1\/game\/map_info_new?map_id=80001
+    - match: https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user
       name: panbaidu
-      type: request
+      type: response
       require-body: true
       timeout: 10
 script-providers:
   panbaidu:
-    url: https://raw.githubusercontent.com/missuo/FuckSheepGame/main/sheep.js
+    url: https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/bdcloud.js
     interval: 86400
