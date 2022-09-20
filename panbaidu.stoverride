@@ -4,7 +4,7 @@ http:
   mitm:
     - 'cat-match.easygame2021.com'
   script:
-    - match: https?:\/\/cat-match\.easygame2021\.com\/sheep\/v1\/game\/map_info
+    - match: https?:\/\/cat-match\.easygame2021\.com\/sheep\/v1\/game\/map_info_new?map_id=80001
       name: panbaidu
       type: response
       require-body: true
