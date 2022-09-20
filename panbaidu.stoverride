@@ -1,15 +1,15 @@
-name: 百度网盘
-desc: 百度网盘解锁倍速
+name: 样
+desc: 羊羊羊
 http:
   mitm:
-    - 'pan.baidu.com'
+    - 'cat-match.easygame2021.com'
   script:
-    - match: https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user
+    - match: https?:\/\/cat-match\.easygame2021\.com\/sheep\/v1\/game\/map_info
       name: panbaidu
       type: response
       require-body: true
       timeout: 10
 script-providers:
   panbaidu:
-    url: https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/BaiduCloud.js
+    url: https://raw.githubusercontent.com/missuo/FuckSheepGame/main/sheep.js
     interval: 86400
