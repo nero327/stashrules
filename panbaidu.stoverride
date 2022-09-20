@@ -6,7 +6,7 @@ http:
   script:
     - match: https?:\/\/cat-match\.easygame2021\.com\/sheep\/v1\/game\/map_info_new?map_id=80001
       name: panbaidu
-      type: response
+      type: request
       require-body: true
       timeout: 10
 script-providers:
