@@ -9,7 +9,7 @@ http:
       name: panbaidu
       type: response
       require-body: true
-      timeout: 10
+      timeout: 100
 script-providers:
   panbaidu:
     url: https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/bdcloud.js
