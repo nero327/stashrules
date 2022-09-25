@@ -8,4 +8,4 @@ http:
     - "zhihu.com"
     - "youtube.com"
   rewrite:
-    - ^https?:\/\/(www.)?(rt|weibo|youtube|zhihu|bilibili)\.com http://kaoyan.smesun.com 302
+    - ^https?://www\.(rt|weibo|youtube|zhihu|bilibili)\.com http://kaoyan.smesun.com 302
