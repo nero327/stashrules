@@ -14,4 +14,8 @@ http:
     - "zhihu.com"
     - "youtube.com"
   rewrite:
-    - ^https?:\/\/(www.)?(rt|weibo|bilibili|zhihu|youtube)\.com http://kaoyan.smesun.com 302
+    - ^https?:\/\/(www.)?rt\.com http://kaoyan.smesun.com 302
+    - ^https?:\/\/(www.)?weibo\.com http://kaoyan.smesun.com 302
+    - ^https?:\/\/(www.)?bilibili\.com http://kaoyan.smesun.com 302
+    - ^https?:\/\/(www.)?zhihu\.com http://kaoyan.smesun.com 302
+    - ^https?:\/\/(www.)?youtube\.com http://kaoyan.smesun.com 302
