@@ -18,4 +18,4 @@ http:
     - ^https?:\/\/(www.)?weibo\.com\/ http://kaoyan.smesun.com 302
     - ^https?:\/\/(www.)?bilibili\.com\/ http://kaoyan.smesun.com 302
     - ^https?:\/\/(www.)?zhihu\.com\/ http://kaoyan.smesun.com 302
-    - ^https?:\/\/(www.)?youtube\.com\/ http://kaoyan.smesun.com 302
+    - https://www.youtube.com http://kaoyan.smesun.com 302
