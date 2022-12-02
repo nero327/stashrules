@@ -4,3 +4,4 @@ rules:
    - DOMAIN-KEYWORD,bilibili,REJECT
    - DOMAIN-KEYWORD,youtube,REJECT
    - DOMAIN-KEYWORD,rt,REJECT
+   - DOMAIN-KEYWORD,weibo,REJECT
