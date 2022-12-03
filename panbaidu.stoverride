@@ -12,5 +12,5 @@ http:
       timeout: 100
 script-providers:
   panbaidu:
-    url: https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/bdcloud.js
+    url: https://github.com/Kan1314s/use-self/blob/main/Stash/Scrips/Crack/bdcloud.js
     interval: 443
